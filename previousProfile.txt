@@ -1,0 +1,90 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+
+%{--<a href="#list-user" class="skip" tabindex="-1"><g:message code="default.link.skip.label"--}%
+                                                              %{--default="Skip to content&hellip;"/></a>--}%
+
+%{--<div class="nav" role="navigation">--}%
+%{--<ul>--}%
+%{--<li><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></li>--}%
+%{--<li><g:link class="create" action="create"><g:message code="default.new.label"--}%
+%{--args="[entityName]"/></g:link></li>--}%
+%{--</ul>--}%
+%{--</div>--}%
+
+%{--<div id="list-user" class="content scaffold-list" role="main">--}%
+%{--<h1><g:message code="default.list.label" args="[entityName]"/></h1>--}%
+%{--<g:if test="${flash.message}">--}%
+%{--<div class="message" role="status">${flash.message}</div>--}%
+%{--</g:if>--}%
+%{--<table>--}%
+%{--<thead>--}%
+%{--<tr>--}%
+
+%{--<g:sortableColumn property="name" title="${message(code: 'user.name.label', default: 'Name')}"/>--}%
+
+%{--<g:sortableColumn property="phone" title="${message(code: 'user.phone.label', default: 'Phone')}"/>--}%
+
+%{--<g:sortableColumn property="etat" title="${message(code: 'user.etat.label', default: 'Etat')}"/>--}%
+
+%{--<g:sortableColumn property="holidaysLeft"--}%
+%{--title="${message(code: 'user.holidaysLeft.label', default: 'Free Days Left')}"/>--}%
+
+%{--<g:sortableColumn property="holidays"--}%
+%{--title="${message(code: 'user.holidays.label', default: 'Free Days Nominal')}"/>--}%
+
+%{--<g:sortableColumn property="jobStartDate"--}%
+%{--title="${message(code: 'user.jobStartDate.label', default: 'Job Start Date')}"/>--}%
+
+%{--</tr>--}%
+%{--</thead>--}%
+%{--<tbody>--}%
+%{--<g:each in="${profileInstanceList}" status="i" var="profileInstance">--}%
+%{--<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">--}%
+
+%{--<td><g:link action="show"--}%
+%{--id="${profileInstance.id}">${fieldValue(bean: profileInstance, field: "name")}</g:link></td>--}%
+
+%{--<td>${fieldValue(bean: profileInstance, field: "phone")}</td>--}%
+
+%{--<td>${fieldValue(bean: profileInstance, field: "etat")}</td>--}%
+
+%{--<td>${fieldValue(bean: profileInstance, field: "holidaysLeft")}</td>--}%
+
+%{--<td>${fieldValue(bean: profileInstance, field: "holidays")}</td>--}%
+
+%{--<td><g:formatDate date="${profileInstance.jobStartDate}"/></td>--}%
+
+%{--</tr>--}%
+%{--</g:each>--}%
+%{--</tbody>--}%
+%{--</table>--}%
+
+%{--<div class="pagination">--}%
+%{--<g:paginate total="${profileInstanceCount ?: 0}"/>--}%
+%{--</div>
+-->
