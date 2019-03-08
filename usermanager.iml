@@ -219,6 +219,7 @@
           <root url="jar://C:/grails/grails2.3.11/lib/org.apache.ant/ant/jars/ant-1.8.4.jar!/" />
           <root url="jar://C:/grails/grails2.3.11/lib/jline/jline/jars/jline-2.12.jar!/" />
           <root url="file://$MODULE_DIR$/lib" />
+          <root url="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.29/mysql-connector-java-5.1.29.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
